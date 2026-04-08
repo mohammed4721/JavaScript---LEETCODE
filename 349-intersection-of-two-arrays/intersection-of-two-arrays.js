@@ -8,7 +8,7 @@ var intersection = function(nums1, nums2) {
     let mySet1 = new Set(nums1);
     let mySet2 = new Set(nums2);
     // let unique = [...mySet]
-    console.log(mySet2)
+    // console.log(mySet2)
     for(let num of mySet1){
         if(mySet2.has(num)){
             res.push(num)
